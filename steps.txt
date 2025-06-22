@@ -1,0 +1,10 @@
+- Download and install python
+- Create Virtual Environment
+	python -m venv venv
+	source venv/Scripts/activate
+- Install Python packages
+- Fast API hello world
+	uvicorn main:app --reload
+- Docker Desktop and Docker compose
+- Production Dockerfile for fastapi
+- Docker-based Fastapi hello world
