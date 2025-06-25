@@ -5,9 +5,11 @@ from pydantic import BaseModel
 
 class EventCreateSchema(BaseModel):
     page: str
+    description: Optional[str] = ""
 
 class EventUpdateSchema(BaseModel):
     description: str
+
 
 class EventSchema(BaseModel):
     id: int
