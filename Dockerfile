@@ -53,4 +53,5 @@ RUN apt-get remove --purge -y \
 
 # Run the FastAPI project via the runtime script
 # when the container starts
-CMD ["/bin/bash", "/opt/run.sh"]
+WORKDIR /code/src
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
