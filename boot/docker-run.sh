@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 
 source /opt/venv/bin/activate
 
