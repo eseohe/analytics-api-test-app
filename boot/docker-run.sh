@@ -4,6 +4,7 @@ set -ex
 source /opt/venv/bin/activate
 
 cd /code
+cd /src
 RUN_PORT=${PORT:-8000}
 RUN_HOST=${HOST:-0.0.0.0}
 
